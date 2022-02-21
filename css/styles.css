@@ -433,11 +433,13 @@ li {
 .clients-link:hover,
 .clients-link:focus {
   border-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .clients-link:hover .clients-link-icon,
 .clients-link:focus .clients-link-icon {
   fill: var(--accent-color);
+  cursor: pointer;
 }
 
 /* footer */
@@ -468,7 +470,6 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  cursor: pointer;
 }
 
 .footer-contacts-link {
@@ -537,9 +538,11 @@ address {
 .footer-social-link:hover .footer-social-link-icon,
 .footer-social-link:focus .footer-social-link-icon {
   fill: #ffffff;
+  cursor: pointer;
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--accent-color);
+  cursor: pointer;
 }

@@ -125,6 +125,10 @@ li {
   cursor: pointer;
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 .header-contact-list {
   display: flex;
   margin-left: auto;
